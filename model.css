@@ -1,0 +1,60 @@
+body{
+    background-image: url("/photo/background-blur-bokeh-bright-220067.jpg");
+    background-attachment: fixed  ;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.hero{
+    padding:4rem 0;
+    text-align: center;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(80, 166, 247) ;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.model{
+    visibility: hidden;
+    background-color: white;
+}
+.vis{
+    /* background: var(--clr-white); */
+    visibility: visible;
+    width: 80%;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    position:absolute;
+    top:5rem;
+    border-radius: 20px;
+}
+.close-btn{
+    color:red;
+    background:transparent;
+    border:none;
+    position:absolute;
+    top:1rem;
+    left:59.5rem;
+    font-size: 2rem;
+    transition: transform 1s;
+}
+.close-btn:hover{
+    transition-timing-function: linear;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
