@@ -1,5 +1,5 @@
 body{
-    background-image: url("/photo/background-blur-bokeh-bright-220067.jpg");
+    background-image: url("background-blur-bokeh-bright-220067.jpg");
     background-attachment: fixed  ;
     display: grid;
     place-items: center;
